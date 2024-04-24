@@ -9,6 +9,10 @@ import { send, sendHover } from "../assets";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+const apiKey = import.meta.env.API_KEY;
+const templateId = import.meta.env.TEMPLATE_ID;
+const ServiceID = import.meta.env.SERVICE_ID;
+
 const Contact = () => {
 	const formRef = useRef();
 	const [form, setForm] = useState({
@@ -34,10 +38,10 @@ const Contact = () => {
 
 		emailjs
 			.sendForm(
-				"service_wylcd6f", // paste your ServiceID here (you'll get one when your service is created).
-				"template_eilw9jo", // paste your TemplateID here (you'll find it under email templates).
+				serviceId, // paste your ServiceID here (you'll get one when your service is created).
+				templateId, // paste your TemplateID here (you'll find it under email templates).
 				formRef.current,
-				"LMGajOFoRfZ7HFTCF",
+				apiKey,
 			)
 			//paste your Public Key here. You'll get it in your profile section.)
 			.then(
