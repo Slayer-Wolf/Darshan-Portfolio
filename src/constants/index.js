@@ -130,7 +130,7 @@ const experiences = [
 		company_name: "NeoDove",
 		icon: neoDove,
 		iconBg: "#333333",
-		date: "June 2021 - Dec 2022",
+		date: "Dec 2020 - June 2021",
 	},
 	{
 		title: "React-Native/React Developer",
