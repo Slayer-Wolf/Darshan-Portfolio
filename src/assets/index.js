@@ -98,4 +98,5 @@ export {
 	IGstudio,
 	Qtrip,
 	Darshan,
+	Crio,
 };
