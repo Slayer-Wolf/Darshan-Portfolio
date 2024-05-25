@@ -27,6 +27,7 @@ import {
 	YTclone,
 	IGstudio,
 	Qtrip,
+	Crio,
 } from "../assets";
 
 export const navLinks = [
@@ -126,12 +127,20 @@ const technologies = [
 
 const experiences = [
 	{
-		title: "Customer Success Intern ",
-		company_name: "NeoDove",
-		icon: neoDove,
+		title: "Crio Fellowship in Software Development ",
+		company_name: "Crio.Do",
+		icon: Crio,
 		iconBg: "#333333",
-		date: "Dec 2020 - June 2021",
+		date: "June 2023 - Present",
 	},
+	{
+		title: "Frontend-Developer",
+		company_name: "MillionSquareFeet",
+		icon: Mill,
+		iconBg: "#333333",
+		date: "June 2022 - Jan 2023",
+	},
+
 	{
 		title: "React-Native/React Developer",
 		company_name: "HyperDizital",
@@ -140,11 +149,11 @@ const experiences = [
 		date: "Feb 2022 - June 2022",
 	},
 	{
-		title: "Frontend-Developer",
-		company_name: "MillionSquareFeet",
-		icon: Mill,
+		title: "Customer Success Intern ",
+		company_name: "NeoDove",
+		icon: neoDove,
 		iconBg: "#333333",
-		date: "June 2022 - Jan 2023",
+		date: "Dec 2020 - June 2021",
 	},
 ];
 

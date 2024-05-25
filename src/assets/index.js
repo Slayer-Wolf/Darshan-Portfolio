@@ -44,6 +44,7 @@ import mui from "./tech/mui.png";
 import neoDove from "./company/neoDove.png";
 import hyperDizital from "./company/hyperDizital.png";
 import Mill from "./company/Mill.png";
+import Crio from "./company/crio.svg";
 
 import Qtify from "./projects/Qtify.png";
 import Qkart from "./projects/Qkart.png";

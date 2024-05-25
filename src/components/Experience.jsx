@@ -105,7 +105,7 @@ const Experience = () => {
               ease-in-out"
 							onClick={() =>
 								window.open(
-									"https://profile.indeed.com/p/darshant-lfkzcdb", //paste the link to your resume here
+									"https://docs.google.com/document/d/19nC-cpyVTuIEidt4fIMMfXetzhnNk9MpQjzhnKIUTNE/edit?usp=sharing", //paste the link to your resume here
 									"_blank",
 								)
 							}
